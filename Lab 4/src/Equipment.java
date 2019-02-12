@@ -123,7 +123,7 @@ public class Equipment
         Equipment otherEq = (Equipment)other;
 
         // Check that all fields match (name, count, totalWeight, totalPrice, and description):
-        int count =0;
+        int count = 0;
         
         if (otherEq.getName().equalsIgnoreCase(this.getName()))
         {
