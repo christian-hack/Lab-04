@@ -10,7 +10,7 @@ public class AnimalTest
     /**
      * Test the empty Animal constructor and the getters
      */
-    public void emptyConstructorTest() throws AssertException
+    public void animalEmptyConstructorTest() throws AssertException
     {
         // Use the default constructor
         Animal animal = new Animal();
@@ -22,7 +22,7 @@ public class AnimalTest
         Assert.assertEquals(0, animal.getWeight(), 0.01);
     }
 
-    public void fullConstructorTest() throws AssertException
+    public void animalFullConstructorTest() throws AssertException
     {
     	String name = "Reggie";
     	String color = "red";
