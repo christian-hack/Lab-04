@@ -140,7 +140,7 @@ public class Animal
 
         // Check that all fields match (color, name, weight, height):
         int count = 0;
-        
+        boolean isMatch = true;
         if (otherAni.getName().equalsIgnoreCase(this.getName()))
         {
         	count++;
@@ -157,10 +157,14 @@ public class Animal
         {
         	count++;
         }
-        if (count ==5)
+        if (count == 4)
         {
-        	return true;
+        	isMatch = true;
         }
-        return false;
+        if (count != 4)
+        {
+        	isMatch = false;
+        }
+        return isMatch;
     }
 }
