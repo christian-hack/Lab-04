@@ -92,6 +92,7 @@ public class AnimalTest
     }
     public void animalEqualsTest() throws AssertException
     {
+    	//create two similar variables to compare to each other and one different to have a contrast
     	Animal reggie = new Animal ("red", "Reggie", 60.5, 10.3);
     	
     	Animal tester = new Animal ("red", "Reggie", 60.5, 10.3);

@@ -38,6 +38,7 @@ public class EquipmentTest
 	}
 	public void equipmentEqualsTest() throws AssertException
 	{
+		//create 2 strings similar to each other with one string to compare to for a false output value
 		String coolioBro = "CoolioBro/0, 0.0, 0.0,unknown";
 		String dk = "DonkeyKong/0, 0.0, 0.0,unknown";
 		String dk2 = "DonkeyKong/0, 0.0, 0.0,unknown";
